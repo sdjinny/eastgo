@@ -1,0 +1,36 @@
+@@ -0,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<script type = "text/javascript">
+<!-- 카운터, 맞출 경우 증가, 못맞히면 그대로 //-->
+var num=0;
+var x=0;
+
+</script>
+
+<script type = "text/javascript">
+
+function counter(x){
+	x=num++;
+	alert("정답입니다. 현재까지 맞춘 정답수는"+num+"입니다");
+	return num;
+}
+
+function numClear(){
+	num=0;
+	alert("다시 시작합니다");
+}
+
+</script>
+
+</head>
+
+<body>
+<iframe src="quiz_start.html" id="ifr" name="ifr" width="410px" height="410px" frameborde="2px"></iframe>
+
+</body>
+</html>
